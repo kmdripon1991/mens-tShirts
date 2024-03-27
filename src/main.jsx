@@ -6,8 +6,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Header from "./components/Header/Header.jsx";
-import Shirts from "./components/Shirts/Shirts.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import TShirts from "./components/TShirts/TShirts.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,9 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path:'shirts',
-        element:<Shirts/>
+        path:'t-shirts',
+        element:<TShirts/>,
+        loader: ()=>fetch('tShirts.json')
       },
       {
         path:'about',

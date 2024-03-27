@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tShirts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cart-container{
+    background-color: grey;
+    height: auto;
+}

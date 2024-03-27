@@ -1,0 +1,14 @@
+.t-shirt{
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.t-shirt img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+}
+
